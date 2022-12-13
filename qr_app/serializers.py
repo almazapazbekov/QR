@@ -13,7 +13,7 @@ def spec_symbol(value):
 def qr_generator(value):
     # print(value)
     return f'{value["category_id"].id}C{value["price"]}P{value["item_id"]}I'
-
+ #asdasdasdasdasd
 
 class CategorySerializer(serializers.Serializer):
     id = serializers.CharField(max_length=30)
